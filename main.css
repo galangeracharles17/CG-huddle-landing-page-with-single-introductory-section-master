@@ -70,7 +70,7 @@ header {
 
 .huddle-main__left img {
     width: 100%;
-    height: 90%;
+    height: 95%;
 }
 
 .huddle-main__right {
@@ -112,18 +112,10 @@ header {
 
 .huddle-main__icons {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
     gap: 16px;
     margin-top: 200px;
 
-}
-
-.huddle-main__icons a:nth-of-type(1) {
-    order: 3;
-}
-
-.huddle-main__icons a:nth-of-type(2) {
-    order: 2;
 }
 
 .huddle-main__icons a {
@@ -210,6 +202,7 @@ header {
     .huddle-main__description {
         padding: 0;
     }
+
 
     .huddle-main__button {
         width: 70%;
